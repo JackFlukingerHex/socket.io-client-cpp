@@ -22,7 +22,8 @@
 #if SIO_TLS
 // If using Asio's SSL support, you will also need to add this #include.
 // Source: http://think-async.com/Asio/asio-1.10.6/doc/asio/using.html
-// #include <asio/ssl/impl/src.hpp>
+    #include <asio/impl/src.hpp>
+    #include <asio/ssl/impl/src.hpp>
 #endif
 
 using std::chrono::milliseconds;
